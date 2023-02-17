@@ -1,4 +1,4 @@
-THuật toán (algorithm) 
+THuật toán (algorithm)
 (Hay còn gọi là giải thuật) là một tập hợp các bước để giải quyết vấn đề (lời giải của vấn đề)
 Các bước đê giải quyết được một bài toán:
 Bước 1: Hiểu bài toán đó, thu thập tất cả các thông tin dữ liệu đầu vào
