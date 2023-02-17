@@ -1,0 +1,15 @@
+BEGIN
+    INPUT N
+    INPUT a0
+    MAX=a0
+    cnt=1
+    WHILE (cnt < N)
+    DO
+        INPUT number
+        IF (number > MAX)
+            MAX = number
+        END IF
+        cnt += 1
+    END DO
+    DISPLAY MAX
+END

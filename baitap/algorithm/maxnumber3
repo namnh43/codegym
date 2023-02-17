@@ -1,0 +1,12 @@
+BEGIN
+    INPUT NUM1 NUM2 NUM3
+    MAX=NUM1
+    IF (NUM2 > MAX) OR (NUM3 > MAX)
+        IF (NUM2 > NUM3)
+            MAX = NUM2
+        ELSE
+            MAX = NUM3
+        END IF
+    END IF
+    DISPLAY MAX
+END
