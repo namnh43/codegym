@@ -1,0 +1,5 @@
+BEGIN
+  INPUT numUSD
+  numVND = numUSD * 23000
+  DISPLAY numVND
+END
