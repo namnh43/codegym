@@ -1,7 +1,7 @@
 BEGIN
     INPUT N
-    INPUT a0
-    MAX=a0
+    INPUT number0
+    MAX=number0
     cnt=1
     WHILE (cnt < N)
     DO

@@ -1,0 +1,14 @@
+BEGIN
+    INPUT score
+    IF (score >= 75)
+        grade = A
+    ELSE IF (score >= 60 AND score < 75)
+        grade = B
+    ELSE IF (score >= 45 AND score < 60)
+        grade = C
+    ELSE IF (score >= 35 AND score < 45)
+        grade = D
+    ELSE
+        grade = E
+    END IF
+END
