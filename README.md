@@ -1,10 +1,10 @@
 # codegym
-I-Mục tiêu sau khóa học: 
+**I-Mục tiêu sau khóa học: **
 - Trở thành 1 lập trình viên Java Web chuyên nghiệp, có thể apply vào bất cứ công ty CNTT nào offer vị trí tương ứng
 
-II - Các kiến thức thành thạo sau khóa học
+**II - Các kiến thức thành thạo sau khóa học**
 
-A - Kỹ năng kiến thức công nghệ
+**A - Kỹ năng kiến thức công nghệ**
 1. Kỹ sư Java Web là người phát triển các ứng dụng web sử dụng ngôn ngữ lập trình Java và các công nghệ liên quan. Dưới đây là một số kỹ năng về công nghệ cần thiết cho kỹ sư Java Web:
 
 2. Java core: Kỹ sư Java Web cần có kiến thức vững chắc về ngôn ngữ lập trình Java, bao gồm cú pháp, kiểu dữ liệu, hàm, lớp và gói.
@@ -25,4 +25,27 @@ A - Kỹ năng kiến thức công nghệ
 
 10. Deployment: Kỹ sư Java Web cần hiểu về quá trình triển khai ứng dụng lên môi trường sản xuất và biết sử dụng các công cụ như Jenkins để triển khai và quản lý quy trình phát triển sản phẩm.
 
-B - Kỹ năng mềm
+**B - Kỹ năng mềm**
+
+Những kỹ năng mềm sau đây là cần thiết cho kỹ sư công nghệ thông tin:
+
+1. Kỹ năng giao tiếp: khả năng truyền đạt ý tưởng và thông tin một cách rõ ràng và hiệu quả, cả trong giao tiếp bằng văn bản lẫn trong giao tiếp trực tiếp.
+
+2. Kỹ năng thuyết phục: khả năng thuyết phục và thuyết minh ý tưởng hoặc sản phẩm với khách hàng hoặc đồng nghiệp.
+
+3. Kỹ năng lãnh đạo: khả năng hướng dẫn, tạo động lực và quản lý nhóm.
+
+4. Kỹ năng quản lý thời gian: khả năng quản lý thời gian và ưu tiên công việc hiệu quả.
+
+5. Kỹ năng tư duy logic: khả năng phân tích và giải quyết vấn đề một cách logic và có hệ thống.
+
+6. Kỹ năng hợp tác và làm việc nhóm: khả năng làm việc trong một nhóm, phối hợp với đồng nghiệp và chia sẻ trách nhiệm.
+
+7. Kỹ năng tự học và nghiên cứu: khả năng tìm hiểu và nghiên cứu các công nghệ mới, cập nhật kiến thức và kỹ năng mới.
+
+8. Kỹ năng sáng tạo: khả năng tạo ra giải pháp sáng tạo và đột phá trong công việc.
+
+9. Kỹ năng quản lý dự án: khả năng lên kế hoạch, quản lý và giám sát tiến độ các dự án.
+
+10. Kỹ năng động lực và trách nhiệm: khả năng tự tin, có trách nhiệm và năng động trong công việc.
+
