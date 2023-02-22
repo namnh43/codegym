@@ -3,6 +3,7 @@ I-Mục tiêu sau khóa học:
 - Trở thành 1 lập trình viên Java Web chuyên nghiệp, có thể apply vào bất cứ công ty CNTT nào offer vị trí tương ứng
 
 II - Các kiến thức thành thạo sau khóa học
+
 Kỹ sư Java Web là người phát triển các ứng dụng web sử dụng ngôn ngữ lập trình Java và các công nghệ liên quan. Dưới đây là một số kỹ năng về công nghệ cần thiết cho kỹ sư Java Web:
 
 Java core: Kỹ sư Java Web cần có kiến thức vững chắc về ngôn ngữ lập trình Java, bao gồm cú pháp, kiểu dữ liệu, hàm, lớp và gói.
