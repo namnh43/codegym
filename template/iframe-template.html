@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    body {
+      background-color: bisque;
+      text-align: left;
+
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: 300px 700px;
+
+    }
+    .grid-item {
+      border: solid 1px red;
+
+    }
+    .menu {
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+<h1>Bài tập 6 - Codegym</h1>
+<div class="grid-container content">
+  <div class="grid-item menu"><strong>Menu</strong></div>
+  <div class="grid-item menu"><strong>Content</strong></div>
+  <div class="menu-data grid-item">
+    <ol>
+      <li><a href="./child-lesson/ajax.html" target="display">ajax</a></li>
+      <li><a href="./child-lesson/vidu.html" target="display">vidu</a></li>
+    </ol>
+
+    <br>
+
+  </div>
+  <div class="display-content grid-item">
+    <iframe src="./child-lesson/ajax.html" name="display" width="100%"></iframe>
+  </div>
+</div>
+</body>
+</html>
