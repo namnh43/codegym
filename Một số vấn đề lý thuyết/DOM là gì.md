@@ -2,7 +2,9 @@ DOM là gì?
 
 Tìm hiểu và thao tác DOM trong Javascript
 
-THam khảo: https://topdev.vn/blog/dom-la-gi/
+THam khảo: 
+- https://topdev.vn/blog/dom-la-gi/
+- https://www.w3schools.com/jsref/dom_obj_document.asp
 
 DOM là gì?
 DOM là tên gọi viết tắt của (Document Object Model – tạm dịch Mô hình Các Đối tượng Tài liệu). Là một chuẩn được định nghĩa bởi W3C (Tổ Chức Web Toàn Cầu – World Wide Web Consortium). DOM được dùng để truy xuất và thao tác trên các tài liệu có cấu trúc dạng HTML hay XML bằng các ngôn ngữ lập trình thông dụng như Javascript, PHP…
