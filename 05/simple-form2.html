@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple form 2</title>
+    <style>
+        body {
+            width: 700px;
+            background-color: bisque;
+            text-align: center;
+        }
+        table {
+            border-collapse: collapse;
+            border: 1px black solid;
+            width: 100%;
+        }
+        th, td {
+            text-align: left;
+            vertical-align: top;
+            border: 1px solid black;
+        }
+        td label {
+            vertical-align: top;
+        }
+        .heading {
+            width: 20%;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<h1>SỞ THÍCH CỦA BẠN</h1>
+<form>
+    <table>
+        <tr>
+            <td class="heading"><label for="name">Họ và tên </label></td>
+            <td><input type="text" name="name" id="name"></td>
+        </tr>
+        <tr>
+            <td class="heading"><label for="email">Email</label></td>
+            <td><input type="text" name="email" id="email"></td>
+        </tr>
+        <tr>
+            <td class="heading">Sở thích</td>
+            <td>
+                <input type="checkbox" name="hobby" id="sport" value="thethao">
+                <label for="sport">Thể thao</label>
+                <br>
+                <input type="checkbox" name="hobby" id="web" value="surfweb">
+                <label for="web">Lướt web</label>
+                <br>
+                <input type="checkbox" name="hobby" id="touris" value="dulich">
+                <label for="touris">Du lịch</label>
+            </td>
+            <td>
+                <input type="checkbox" name="hobby" id="music" value="amnhac">
+                <label for="music">Âm nhạc</label>
+            </td>
+
+        </tr>
+    </table>
+</form>
+</body>
+</html>
