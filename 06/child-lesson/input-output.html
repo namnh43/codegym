@@ -10,19 +10,24 @@
 <button onclick="show_message_by_innerHTML()">show inner</button>
 <button onclick="show_message_by_documentwrite()">show documentwrite</button>
 <button onclick="show_message_by_console()">show console</button>
+<button onclick="show_message_by_separate_js()">show separate js</button>
 </body>
 <script>
-  function show_message_by_alert(){
-    alert("Say hello with alert!")
-  }
-  function show_message_by_innerHTML(){
-    document.getElementById("display").innerHTML = "Say hello with innerHTML!"
-  }
-  function show_message_by_documentwrite() {
-    document.write("Say hello with document.write()")
-  }
-  function show_message_by_console(){
-    console.log("Say hello with console")
-  }
+    function show_message_by_alert() {
+        alert("Say hello with alert!")
+    }
+
+    function show_message_by_innerHTML() {
+        document.getElementById("display").innerHTML = "Say hello with innerHTML!"
+    }
+
+    function show_message_by_documentwrite() {
+        document.write("Say hello with document.write()")
+    }
+
+    function show_message_by_console() {
+        console.log("Say hello with console")
+    }
 </script>
+<script src="separatejs.js"></script>
 </html>
