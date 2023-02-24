@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Ứng dụng chuyển đổi tiền tệ</title>
+    <style>
+        th, td {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <th>Amount</th>
+        <th>From currency</th>
+        <th>To currency</th>
+    </tr>
+    <tr>
+        <td><input type="number" id="input-num" value="10"></td>
+        <td>
+            <select id="from">
+                <option name="vnd" id="from-vnd" value="VND">VND</option>
+                <option name="usd" id="from-usd" value="USD">USD</option>
+            </select>
+        </td>
+        <td>
+            <select id="to">
+                <option name="usd" id="to-usd" value="USD">USD</option>
+                <option name="vnd" id="to-vnd" value="VND">VND</option>
+            </select>
+        </td>
+    </tr>
+</table>
+<button id="convert-btn">Convert</button>
+<h4 id="result-id">Result:</h4>
+</body>
+<script>
+    let button = document.getElementById("convert-btn");
+    button.addEventListener("click",convert);
+    function convert() {
+        let val = document.getElementById("input-num").value;
+        let from = document.getElementById("from").value;
+        let to = document.getElementById("to").value;
+        let result = val;
+        if (from != to) {
+            if (from == "VND") {
+                result = val/23000;
+            } else {
+                result = val*23000;
+            }
+        }
+        document.getElementById("result-id").innerHTML =  'Result: '+ val + from + "=" + result + to;
+    }
+</script>
+</html>
