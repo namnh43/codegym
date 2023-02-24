@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Ứng dụng máy tính</title>
+</head>
+<body>
+<input type="number" id="first-num" value="10">
+<input type="number" id="second-num" value="10">
+<br>
+<input type="button" id="add-btn" value="Addition(+)" onclick="testfunc('1')">
+<input type="button" id="sub-btn" value="Subtraction(-)" onclick="testfunc('2')">
+<input type="button" id="mul-btn" value="Multiplication(X)" onclick="testfunc('3')">
+<input type="button" id="div-btn" value="Division(/)" onclick="testfunc('4')">
+<br>
+<h4 id="result"></h4>
+</body>
+<script>
+  function testfunc(val){
+      let firt_num = document.getElementById("first-num").value;
+      let second_num = document.getElementById("second-num").value;
+      let resutl = 0;
+    if (val==1) {
+        resutl = parseInt(firt_num) + parseInt(second_num)
+    } else if (val ==2) {
+        resutl = parseInt(firt_num) - parseInt(second_num)
+    } else if (val == 3) {
+        resutl = parseInt(firt_num) * parseInt(second_num)
+    } else {
+        resutl = parseInt(firt_num) / parseInt(second_num)
+    }
+    document.getElementById("result").innerHTML = 'Result: ' + resutl
+  }
+</script>
+</html>
