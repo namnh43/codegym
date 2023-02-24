@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Biến, kiểu dữ liệu và toán tử</title>
+</head>
+<body>
+<h1>Bài 1: Viết chương trình nhập điểm của một sinh viên cho các môn: Vật lý, Hóa học, và Sinh học. Sau đó hiển thị điểm trung bình và tổng của những điểm này.</h1>
+<button onclick="calculate()">Click me!</button>
+<p id="score"></p>
+<script>
+    function calculate() {
+        let math = prompt("Nhập điểm toán",5);
+        let chem = prompt("Nhập điểm hóa", 5);
+        let bio = prompt("Nhập điểm sinh",5);
+        let score = (math*1+chem*1+bio*1)/3;
+        // console.log(score)
+        document.getElementById("score").innerHTML = "<span style='color: red'>Điểm trung bình: </span>"+score;
+    }
+</script>
+<h1>-------------</h1>
+<h1>Bài 2:  Viết chương trình nhập một giá trị là độ 0C (Celsius) và chuyển nó sang độ 0F (Fahrenheit). [Hướng dẫn: C/5 = (F-32)/9]</h1>
+<button id="temporary">Click me!</button>
+<h1 id="display-fahrenheit"></h1>
+<script>
+    var button_dom = document.getElementById("temporary");
+    button_dom.onclick = function () {
+        let celsius = prompt("Nhập giá trị độ C:", "0");
+        let fahrenheit = celsius*1.800 + 32;
+        document.getElementById("display-fahrenheit").innerHTML = celsius + "C = " + fahrenheit +"F";
+    }
+</script>
+</body>
+
