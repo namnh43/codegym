@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập 3</title>
+</head>
+<body>
+<h1 style="color: brown">Bài tập 3</h1>
+<pre>
+Đề bài:
+Viết chương trình bằng JavaScript cho phép:
+- Giá trị ban đầu là 0
+- Click Up thì giá trị tăng 2
+- Click Down thì giá trị giảm 2
+</pre>
+<h4>Lời giải:</h4>
+<input id="num" type="number" value="0">
+<input id="up-btn" type="button" value="Up" onclick="handler('up')">
+<input id="down-btn" type="button" value="Down" onclick="handler('down')">
+</body>
+<script>
+    function handler(val) {
+        let num_val = document.getElementById("num").value;
+        if (val == 'up') {
+            document.getElementById("num").value = parseInt(num_val) + 2
+        } else if (val == 'down') {
+            document.getElementById("num").value = parseInt(num_val) - 2
+        }
+    }
+</script>
+</html>

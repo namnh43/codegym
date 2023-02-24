@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Test Week1</title>
+    <style>
+        body {
+            background-color: bisque;
+            text-align: left;
+
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: 300px 700px;
+
+        }
+        .grid-item {
+            border: solid 1px dimgray;
+
+        }
+        .menu {
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<h1>Mini Test Week1</h1>
+<div class="grid-container content">
+    <div class="grid-item menu"><strong>Menu</strong></div>
+    <div class="grid-item menu"><strong>Content</strong></div>
+    <div class="menu-data grid-item">
+        <ul>
+            <li>Bài tập học liệu</li>
+            <ol>
+                <li><a href="./child-lesson/exec2.html" target="display">[Thực hành] Bài tập 2</a></li>
+                <li><a href="./child-lesson/exec3.html" target="display">[Thực hành] Bài tập 3</a></li>
+                <li><a href="./child-lesson/exec4.html" target="display">[Thực hành] Bài tập 4</a></li>
+            </ol>
+
+            <li>Others</li>
+            <ol>
+
+            </ol>
+
+        </ul>
+
+        <br>
+
+    </div>
+    <div class="display-content grid-item">
+        <iframe src="./child-lesson/exec2.html" name="display" width="100%" height="600px"></iframe>
+    </div>
+</div>
+</body>
+</html>
