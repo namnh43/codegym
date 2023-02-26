@@ -17,15 +17,15 @@ Viết chương trình bằng JavaScript cho phép:
 <input type="number" id="first-num" value="10">
 <input type="number" id="second-num" value="10">
 <br>
-<input type="button" id="add-btn" value="Addition(+)" onclick="testfunc('1')">
-<input type="button" id="sub-btn" value="Subtraction(-)" onclick="testfunc('2')">
-<input type="button" id="mul-btn" value="Multiplication(X)" onclick="testfunc('3')">
-<input type="button" id="div-btn" value="Division(/)" onclick="testfunc('4')">
+<input type="button" id="add-btn" value="Addition(+)" onclick="func_handler('1')">
+<input type="button" id="sub-btn" value="Subtraction(-)" onclick="func_handler('2')">
+<input type="button" id="mul-btn" value="Multiplication(X)" onclick="func_handler('3')">
+<input type="button" id="div-btn" value="Division(/)" onclick="func_handler('4')">
 <br>
 <h4 id="result"></h4>
 </body>
 <script>
-    function testfunc(val) {
+    function func_handler(val) {
         let firt_num = document.getElementById("first-num").value;
         let second_num = document.getElementById("second-num").value;
         let resutl = 0;
