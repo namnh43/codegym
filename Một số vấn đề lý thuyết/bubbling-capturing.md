@@ -1,5 +1,9 @@
 #### Tham khảo: https://javascript.info/bubbling-and-capturing
 ## Một số  nội dung cần nhớ
+Table of contents:  
+[1. Bubbling](#bubbling)  
+[2. Capturing](#capturing)
+<a name="bubbling"></a>
 ### Bubbling
 Khi 1 sự kiện (event) xảy ra trên 1 element, đầu tiên nó sẽ thực hiện handler trên element đó, sau đó sẽ truyền event đó lên phần tử cha (nếu cha định nghĩa 1 hàm hander cho event thì sẽ thực thi hàm handler đó)
 #### event.target
@@ -12,6 +16,7 @@ Khi 1 sự kiện (event) xảy ra trên 1 element, đầu tiên nó sẽ thực
 #### Stopping bubbling
 The method for it is event.stopPropagation().  
 _*Don’t stop bubbling without a need!_
+<a name="capturing"></a>
 ### Capturing
 The standard DOM Events describes 3 phases of event propagation:
 
